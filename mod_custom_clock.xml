@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>Custom Clock Module</name>
+    <author>Hoa Giáp</author>
+    <creationDate>Tháng Năm 2025</creationDate>
+    <copyright>Copyright (C) 2025. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorEmail>email@example.com</authorEmail>
+    <authorUrl>www.example.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Module hiển thị giờ, ngày tháng và đồng hồ điện tử với khả năng chọn múi giờ.</description>
+    <files>
+        <filename module="mod_custom_clock">mod_custom_clock.php</filename>
+        <filename>tmpl/default.php</filename>
+        <folder>assets</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="timezone" type="timezone" default="UTC" label="Múi giờ mặc định" description="Chọn múi giờ mặc định cho module." />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
