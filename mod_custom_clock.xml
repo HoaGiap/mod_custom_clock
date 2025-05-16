@@ -13,6 +13,7 @@
         <filename module="mod_custom_clock">mod_custom_clock.php</filename>
         <filename>tmpl/default.php</filename>
         <folder>assets</folder>
+        <folder>img</folder>
     </files>
     <config>
         <fields name="params">

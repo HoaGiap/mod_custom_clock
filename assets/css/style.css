@@ -1,11 +1,72 @@
 .custom-clock {
-    text-align: center;
+    max-width: 300px;
+    margin: 30px auto;
+    background: #f4f4f4;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../../img/traidat1.jpg'); /* đổi tên ảnh nếu cần */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.custom-clock p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: white;
 }
 
 #clock {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+    color: white;
+}
+
+#timezone-select {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto
+}
+
+
+
+.custom-clock button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #3D618F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.custom-clock button:hover {
+    background-color: #1F3047;
+}
+.custom-clock::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* màu đen mờ */
+    backdrop-filter: blur(2px); /* làm mờ ảnh nền */
+    z-index: 0;
+}
+.custom-clock * {
+    position: relative;
+    z-index: 1;
 }

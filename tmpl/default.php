@@ -7,7 +7,7 @@ $currentTime = date('H:i:s');
 ?>
 
 <div class="custom-clock">
-    <p>Ngày: <?php echo $currentDate; ?></p>
+    <p >Ngày: <?php echo $currentDate; ?></p>
     <p>Giờ: <span id="clock"><?php echo $currentTime; ?></span></p>
     <select id="timezone-select">
         <option value="UTC">UTC</option>
