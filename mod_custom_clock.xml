@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
     <name>Custom Clock Module</name>
-    <author>Hoa Giáp</author>
+    <author>Hoa Giáp- Quốc Đạt</author>
     <creationDate>Tháng Năm 2025</creationDate>
     <copyright>Copyright (C) 2025. All rights reserved.</copyright>
-    <license>GNU General Public License version 2 or later</license>
+    <license>MIT License</license>
     <authorEmail>email@example.com</authorEmail>
     <authorUrl>www.example.com</authorUrl>
     <version>1.0.0</version>
